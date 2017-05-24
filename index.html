@@ -1,135 +1,133 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="chicasDelCoro" />
     <title>LabCar Proyecto-Sprint4 Squad </title>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
     <script src="https://use.fontawesome.com/e7261129df.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Andy -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- logo -->
-          <a class="navbar-brand" href="#">
-            <img src="img/logoForma.png" alt="Brand">
-          </a>
-        </div>
-        <!-- menu -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Viaja</a></li>
-            <li><a href="#">Conduce</a></li>
-            <!-- modal -->
-            <li><a href="#" data-toggle="modal" data-target="#iniciarSesion">Inicia Sesión</a></li>
-          </ul>
-        </div>
-      </nav>
+                <!-- logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/logoForma.png" alt="Brand">
+                </a>
+            </div>
+            <!-- menu -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Viaja</a></li>
+                    <li><a href="#">Conduce</a></li>
+                    <!-- modal -->
+                    <li><a href="#" data-toggle="modal" data-target="#iniciarSesion">Inicia Sesión</a></li>
+                </ul>
+            </div>
+    </nav>
 
-      <!-- Modal Iniciar Sesión -->
-      <div class="modal fade" id="iniciarSesion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <!-- Modal Iniciar Sesión -->
+    <div class="modal fade" id="iniciarSesion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <img src="img/user.png" alt="User" class="img-circle col-md-4 col-md-offset-4">
-            </div>
-            <div class="modal-body col-md-6 col-md-offset-3">
-              <form class="form-inline well">
-                <div class="input-group">
-                  <span class="input-group-addon" id="sizing-addon2">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <img src="img/user.png" alt="User" class="img-circle col-md-4 col-md-offset-4">
+                </div>
+                <div class="modal-body col-md-6 col-md-offset-3">
+                    <form class="form-inline well">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="sizing-addon2">
                     <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-describedby="sizing-addon2">
-                </div>
-                <br> <br>
-                <div class="input-group">
-                  <span class="input-group-addon" id="sizing-addon2">
+                            </span>
+                            <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-describedby="sizing-addon2">
+                        </div>
+                        <br> <br>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="sizing-addon2">
                     <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
-                  </span>
-                  <input type="text" class="form-control" placeholder="Contraseña" aria-describedby="sizing-addon2">
+                            </span>
+                            <input type="text" class="form-control" placeholder="Contraseña" aria-describedby="sizing-addon2">
+                        </div>
+                        <button type="button" class="btn btn-warning btn-lgmodal-body m-20" data-dismiss="modal">Iniciar Sesión</button>
+                        <p><a href="#">¿Has olvidado tu contraseña?</a></p>
+                    </form>
                 </div>
-                <button type="button" class="btn btn-warning btn-lgmodal-body m-20" data-dismiss="modal">Iniciar Sesión</button>
-                <p><a href="#">¿Has olvidado tu contraseña?</a></p>
-              </form>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <header>
 
     </header>
     <!--  Adriana-->
-    <section  id="home"class="container-fluid home">
-        <div  class="row">
-          <div id="panelHomeDesktop" class="col-md-12 col-xs-12">
-            <div id="primerPanel"class="panel panel-default col-md-5 col-xs-5 col-md-offset-7 col-xs-offset-7 colorGeneralAmarillo marginTop borderNone paddingPanel">
-              <h4 class="tituloPanel colorBlanco">Disfruta del viaje</h4>
-              <h4 class="tituloPanel  colorBlanco">Eres dueño de tu tiempo</h4>
-              <p class="viaja  colorBlanco marginTopSpan">Viaja con <span class="lab"><img class="lab"src="img/logoBlanco.png" alt=""></span></p>
-              <button class="col-md-5 col-xs-5 btn"   data-toggle="modal" data-target="#myModal">REGÍSTRATE</button>
-            <div class="col-md-12 col-xs-12">
-              <span class="col-md-4 col-xs-4 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
-              <p class="col-md-2 col-xs-2 text-center viaja colorBlanco marginTopSpan tamanoLinea">O bien</p>
-              <span class="col-md-3 col-xs-3 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
+    <section id="home" class="container-fluid home">
+        <div class="row">
+            <div id="panelHomeDesktop" class="col-md-12 col-xs-12">
+                <div id="primerPanel" class="panel panel-default col-md-5 col-xs-5 col-md-offset-7 col-xs-offset-7 colorGeneralAmarillo marginTop borderNone paddingPanel">
+                    <h4 class="tituloPanel colorBlanco">Disfruta del viaje</h4>
+                    <h4 class="tituloPanel  colorBlanco">Eres dueño de tu tiempo</h4>
+                    <p class="viaja  colorBlanco marginTopSpan">Viaja con <span class="lab"><img class="lab"src="img/logoBlanco.png" alt=""></span></p>
+                    <button class="col-md-5 col-xs-5 btn" data-toggle="modal" data-target="#myModal">REGÍSTRATE</button>
+                    <div class="col-md-12 col-xs-12">
+                        <span class="col-md-4 col-xs-4 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
+                        <p class="col-md-2 col-xs-2 text-center viaja colorBlanco marginTopSpan tamanoLinea">O bien</p>
+                        <span class="col-md-3 col-xs-3 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
+                    </div>
+                    <button class="col-md-8 col-xs-8 btn marginTopSpan">Conviértete en un conductor</button></p>
+                </div>
             </div>
-              <button class="col-md-8 col-xs-8 btn marginTopSpan">Conviértete en un conductor</button></p>
-            </div>
-          </div>
-          <!-- mobile -->
+            <!-- mobile -->
         </div>
         <div id="panelMobile" class="col-xs-12 ">
-          <div class="panel panel-default col-xs-8 col-xs-offset-5 colorGeneralAmarillo marginTop borderNone paddingPanel">
-            <h4 id="tituloPanelPequenio"class="tituloPanel  colorBlanco">Comienza a viajar</h4>
-            <p class="viaja  colorBlanco marginTopSpan">con <span class="lab"><img class="lab"src="img/logoBlanco.png" alt=""></span></p>
-            <button class="col-md-5 col-xs-10 btn">Descarga el app</button>
-          </div>
+            <div class="panel panel-default col-xs-8 col-xs-offset-5 colorGeneralAmarillo marginTop borderNone paddingPanel">
+                <h4 id="tituloPanelPequenio" class="tituloPanel  colorBlanco">Comienza a viajar</h4>
+                <p class="viaja  colorBlanco marginTopSpan">con <span class="lab"><img class="lab"src="img/logoBlanco.png" alt=""></span></p>
+                <button class="col-md-5 col-xs-10 btn">Descarga el app</button>
+            </div>
         </div>
-      </section>
+    </section>
     <!-- Leslie -->
-      <section class="contenedorApp">
+    <section class="contenedorApp">
         <div class="app">
-          <img src="img/iPhone6Plus.png" alt="">
+            <img src="img/iPhone6Plus.png" alt="">
         </div>
         <div class="pull-right app">
             <h1>DESCARGA LA NUEVA APP</h1>
-            <p class="text-justify">La versión actualizada de LabCar esta
-                llena de nuevas funciones para llegar a donde quieras aún más
-                fácil y rápido.</p>
-            <p class="text-justify">Con solo tocar un botón, un auto llega
-                justo a tu ubicación. Súbete y no te preocupes: tu conductor
-                sabe exactamente a dónde ir.</p>
+            <p class="text-justify">La versión actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+            <p class="text-justify">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
         </div>
         <div class="appmobile">
-          <div class="text-center">
-            <h3> La nueva App</h3>
-            <img src="img/iPhone6Plus.png" alt="">
-          </div>
-          <p>Llega a tu destino aún más rápido</p>
+            <div class="text-center">
+                <h3> La nueva App</h3>
+                <img src="img/iPhone6Plus.png" alt="">
+            </div>
+            <p>Llega a tu destino aún más rápido</p>
         </div>
-      </section>
+    </section>
     <!-- Pari -->
     <section id="conduce" class="container fondo2">
         <div class="row">
-          <div class="col-md-8"></div>
-          <div id="secondCard" class="container col-md-4 jumbotron">
-            <h3>Conduce cuando quieras</h3>
-            <p>Labcar es una opción flexible para alcanzar tus metas financieras</p>
-            <button type="button" class="btn btn-warning">Conviértete en conductor</button>
-          </div>
+            <div class="col-md-8"></div>
+            <div id="secondCard" class="container col-md-4 jumbotron">
+                <h3>Conduce cuando quieras</h3>
+                <p>Labcar es una opción flexible para alcanzar tus metas financieras</p>
+                <button type="button" class="btn btn-warning">Conviértete en conductor</button>
+            </div>
         </div>
     </section>
 
@@ -139,6 +137,62 @@
     </section>
     <!-- Dian -->
     <footer>
+        <div class="container blanco">
+            <div class="row">
+                <div class="col-sm-12 separador">
+                    <img id="logo-footer" src="img/logoBlanco.png" />
+                </div>
+            </div>
+            <div class="row separador">
+                <div id="enlaces-1" class="col-md-3">
+                    <a target="_blank" href="https://www.facebook.com/anaidxd"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://twitter.com/?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://mx.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.apple.com/mx/"><i class="fa fa-apple" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/?hl=es-419&gl=MX"><i class="fa fa-play" aria-hidden="true"></i></a>
+                </div>
+                <div id="enlaces-2" class="col-xs-6 col-md-2">
+                    <ul class="list-unstyled">
+                        <li><a target="_blank" href="http://laboratoria.la/">Viaja</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Conduce</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Ciudades</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Otros</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Entregas</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Cómo funciona</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Países</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Seguridad</a></li>
+                    </ul>
+                </div>
+                <div id="enlaces-3" class="col-md-2 col-md-offset-1">
+                    <ul class="list-unstyled">
+                        <li><a target="_blank" href="http://laboratoria.la/">Oportunidades</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Nuestra historia</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">API de Labcar</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Eventos</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Desarrolladores</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Servicios</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Laboratoria</a></li>
+                        <li><a target="_blank" href="http://laboratoria.la/">Coders</a></li>
+                    </ul>
+                </div>
+                <div id="enlaces-oculto" class="col-xs-6">
+                    <a target="_blank" href="https://www.facebook.com/anaidxd"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://twitter.com/?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://mx.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.apple.com/mx/"><i class="fa fa-apple" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/?hl=es-419&gl=MX"><i class="fa fa-play" aria-hidden="true"></i></a>
+                </div>
+                <div id="enlaces-4" class="col-xs-6 col-md-3 ">
+                    <a target="_blank" href="https://itunes.apple.com/mx/app/apple-store/id375380948?mt=8"><img src="img/appstore.png" /></a>
+                    <a target="_blank" href="https://play.google.com/store?hl=es"><img src="img/enBadgeWebGeneric.png" /></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>© 2017 LabCar technologies Inc.</p>
+                </div>
+            </div>
+        </div>
 
     </footer>
 
@@ -146,5 +200,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
-  </body>
+</body>
+
 </html>
