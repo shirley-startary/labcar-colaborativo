@@ -101,3 +101,34 @@ button{
   margin: 20px 30%;
 }
 /*estilos Andy*/
+
+/*Leslie*/
+.contenedorApp{
+  width: 100%;
+  background-color: #FFB704;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+@media (min-width:769px){
+.appmobile{
+  display:none;
+}
+}
+
+.app{
+  margin-left: 50px;
+  width: 400px;
+  padding: 5%;
+  color: white;
+}
+@media (min-width:0px) and (max-width:768px){
+ .appmobile{
+ width: 100%;
+
+ }
+ .app{
+   display: none;
+ }
+ }
