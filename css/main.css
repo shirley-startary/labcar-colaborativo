@@ -1,3 +1,22 @@
+
+/*estilos Pari*/
+
+.fondo2{
+  background-image: url(../img/conduce.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+#secondCard{
+  margin-top: 8%;
+  background-color: #142045;
+  opacity: 0.6;
+  color: white;
+}
+/*estilos Pari*/
+
+/*estilos Andy*/
 .navbar {
   padding: 2%;
   background-color: #fff;
@@ -16,3 +35,4 @@
 .m-20 {
   margin: 20px 30%;
 }
+/*estilos Andy*/
