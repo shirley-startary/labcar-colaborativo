@@ -1,3 +1,4 @@
+
 /*estilos Pari*/
 
 .fondo2{
@@ -13,5 +14,25 @@
   opacity: 0.6;
   color: white;
 }
-
 /*estilos Pari*/
+
+/*estilos Andy*/
+.navbar {
+  padding: 2%;
+  background-color: #fff;
+}
+
+/*modales*/
+#iniciarSesion .modal-content {
+  background-color: rgb(8, 172, 157);
+  height: 480px;
+}
+
+#iniciarSesion a:hover {
+  color: #2b1d31;
+}
+
+.m-20 {
+  margin: 20px 30%;
+}
+/*estilos Andy*/
