@@ -13,24 +13,25 @@
     <script src="https://use.fontawesome.com/e7261129df.js"></script>
 </head>
 
-<body>
+  <body>
     <!-- Andy -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
+      <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+              <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                <!-- logo -->
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                  <!-- logo -->
                 <a class="navbar-brand" href="#top">
                     <img src="img/logoForma.png" alt="Brand">
                 </a>
-            </div>
-            <!-- menu -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              </div>
+              <!-- menu -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#mapa">Viaja</a></li>
                     <li><a href="#conduce">Conduce</a></li>
@@ -38,8 +39,9 @@
                     <li><a href="#" data-toggle="modal" data-target="#iniciarSesion">Inicia Sesión</a></li>
                 </ul>
             </div>
-    </nav>
-
+        </div>
+      </nav>
+    </header>
     <!-- Modal Iniciar Sesión -->
     <div class="modal fade" id="iniciarSesion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
@@ -71,9 +73,6 @@
         </div>
     </div>
 
-    <header>
-
-    </header>
     <!--  Adriana-->
     <section  id="home"class="container-fluid home">
         <div  class="row">
@@ -100,25 +99,27 @@
             <button class="col-md-5 col-xs-5 btn">Descarga el app</button>
           </div>
         </div>
-      </section>
+    </section>
 
     <!-- Leslie -->
-    <section class="contenedorApp">
-        <div class="app">
-            <img src="img/iPhone6Plus.png" alt="">
+    <section class="container-fluid contenedorApp">
+      <div class="row bordeBlanco">
+        <div class="col-md-6 app">
+          <img src="img/iPhone6Plus.png" alt="">
         </div>
-        <div class="pull-right app">
-            <h1>DESCARGA LA NUEVA APP</h1>
-            <p class="text-justify">La versión actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-            <p class="text-justify">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+        <div class="col-md-6 pull-right app">
+          <h2>DESCARGA LA NUEVA APP</h2>
+          <p class="text-justify">La versión actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+          <p class="text-justify">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
         </div>
-        <div class="appmobile">
-            <div class="text-center">
-                <h3> La nueva App</h3>
-                <img src="img/iPhone6Plus.png" alt="">
-            </div>
-            <p>Llega a tu destino aún más rápido</p>
-        </div>
+      </div>
+      <div class="appmobile">
+          <div class="text-center">
+              <h3> La nueva App</h3>
+              <img src="img/iPhone6Plus.png" alt="">
+          </div>
+          <p>Llega a tu destino aún más rápido</p>
+      </div>
     </section>
     <!-- Pari -->
     <section id="conduce" class="container fondo2">
@@ -133,9 +134,9 @@
     </section>
 
     <!-- Gabi e Itzel -->
-    <section id="mapa" class="container-fluid row flex bg-orange">
-        <div class="row col-md-12">
-            <div class="col-md-6 col-xs-12">
+    <section id="mapa" class="container-fluid flex bg-orange">
+        <div class="row">
+            <div class="col-md-6 col-xs-12 contenedor-formulario-tarifa">
                 <div class="text-center">
                     <h3 class="white-letter">Tarifas</h3>
                     <p class="white-letter letter-m">Consulta las tarifas LabCar aquí</p>
@@ -145,7 +146,9 @@
                 </div>
             </div>
             <div class="col-md-6 col-xs-12 text-center contenedor-mapa">
+              <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15051.827716607213!2d-99.16357265!3d19.41426685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1495646995151" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen class="borde"></iframe>
+              </div>
             </div>
         </div>
     </section>
@@ -214,6 +217,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
 
-</body>
+  </body>
 
 </html>
