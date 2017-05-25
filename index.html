@@ -128,10 +128,80 @@
             <div id="secondCard" class="container col-md-4 jumbotron">
                 <h3>Conduce cuando quieras</h3>
                 <p>Labcar es una opción flexible para alcanzar tus metas financieras</p>
-                <button type="button" class="btn btn-warning">Conviértete en conductor</button>
+                <button type="button" name="button" data-toggle="modal" data-target="#registrate" class="btn btn-warning">Conviértete en conductor</button>
             </div>
         </div>
     </section>
+
+    <!-- Pari Modal registro Conductor-->
+
+    <div class="modal fade" id="registrate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-content" role="document">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div id="color-container" class="modal-body">
+            <div  class="container">
+              <form action="" class="container">
+                <div class="row text-center">
+                  <div class="col-md-8">
+                      <div class="row "></div>
+                      <div class="col-md-6 col-md-offset-1">
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label for="exampleSelect1">¿Tienes vehículo de 4 puertas?</label>
+                                        <select class="form-control">
+                                          <option>si</option>
+                                          <option>no</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label for="exampleSelect1">Marca</label>
+                                        <select class="form-control">
+                                            <option>Elige la marca del vehículo</option>
+                                            <option>Opción1</option>
+                                            <option>Opción2</option>
+                                        </select>
+                                        <small class="form-text text-muted">¿No ves tu vehículo en la lista? Envía un correo electrónico a <span class="text-info">sociosmdv@uber.com</span></small>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label for="exampleSelect1">Modelo</label>
+                                        <select class="form-control">
+                                          <option>modeloA</option>
+                                          <option>modeloB</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label for="exampleSelect1">Año</label>
+                                        <select class="form-control">
+                                          <option>2017</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label for="exampleSelect1">Número de la matrícula</label>
+                                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Número de la matricula">
+                                    <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+                                </div>
+                              </li>
+                            </ul>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pari Fin Modal registro Conductor-->
 
     <!-- Gabi e Itzel -->
     <section id="mapa" class="container-fluid flex bg-orange">
