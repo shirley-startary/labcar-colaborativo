@@ -173,6 +173,10 @@ input{
 #mapa{
   padding: 50px;
 }
+.contenedor-mapa{
+    border: 1px solid #fff;
+    padding: 1%;
+}
 /*terminan estilos Itzel y Gaby*/
 
 /* DIANA */
