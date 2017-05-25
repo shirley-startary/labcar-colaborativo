@@ -63,6 +63,19 @@ button{
 .colorBlanco{
   color:#fff;
 }
+#registroTitulo{
+  background: #000;
+  color:#fff;
+}
+#registrate{
+  color: #000;
+  width: 100%;;
+}
+#registrate input,select{
+  width: auto;
+  margin: 2% 0;
+  display:block;
+}
 
 /*mobile home*/
 @media screen and (min-width:0px) and (max-width:480px){

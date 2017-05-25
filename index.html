@@ -81,7 +81,7 @@
               <h4 class="tituloPanel colorBlanco">Disfruta del viaje</h4>
               <h4 class="tituloPanel  colorBlanco">Eres dueño de tu tiempo</h4>
               <p class="viaja  colorBlanco marginTopSpan">Viaja con <span class="lab"><img class="lab"src="img/logoBlanco.png" alt=""></span></p>
-              <button class="col-md-5 col-xs-5 btn"   data-toggle="modal" data-target="#myModal">REGÍSTRATE</button>
+              <button type="button" name="button" data-toggle="modal" data-target="#registrate">REGISTRATE</button>
             <div class="col-md-12 col-xs-12">
               <span class="col-md-4 col-xs-4 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
               <p class="col-md-2 col-xs-2 text-center viaja colorBlanco marginTopSpan tamanoLinea">O bien</p>
@@ -211,6 +211,59 @@
             </div>
         </div>
     </footer>
+
+    <!-- modal registrate -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="modal fade" id="registrate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <button type="button" id="registroTitulo"><h4 class="modal-title text-uppercase">¿Ya tienes una cuenta?</h4></button>
+                      <p>O CREA UNA CUENTA NUEVA</p>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container">
+                        <form action="" class="container">
+                          <div class="row text-center">
+                            <div >
+                              <input type="text" placeholder="Nombre">
+                            </div>
+                            <div >
+                              <input type="text" placeholder="Apellido">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 text-center">
+                              <input type="email" placeholder="Correo Electronico">
+                              <input type="tel" placeholder="Teléfono">
+                              <input type="password" placeholder="Contraseña">
+                              <input type="text" placeholder="Ciudad">
+                              <input type="text" placeholder="(Opcional) Código de Invitación">
+                              <select class="" name="">
+                                <option selected disabled>¿Cómo te enteraste acerca de nuestros servicios?</option>
+                                <option>Redes Sociales</option>
+                                <option>Amigo y/o familiar</option>
+                                <option>TV</option>
+                              </select>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">ENVIAR</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+
+    </section>
+
+
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
