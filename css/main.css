@@ -1,5 +1,5 @@
-    /*estilos adriana*/
 
+/*estilos adriana*/
 
 /*home*/
 
@@ -118,7 +118,6 @@ button {
 
 /*estilos Andy*/
 
-
 /*Leslie*/
 
 .contenedorApp {
@@ -153,6 +152,28 @@ button {
     
 }
 
+/*comienzan estilos Itzel y Gaby*/
+.form-control{
+  width: 80%;
+  display: inline-block;
+  margin-left: 3%;
+}
+.bg-orange{
+  background-color: orange;
+}
+input{
+  color: #fff;
+}
+.white-letter{
+  color: #fff;
+}
+.icons{
+  width: 5%;
+}
+#mapa{
+  padding: 50px;
+}
+/*terminan estilos Itzel y Gaby*/
 
 /* DIANA */
 
@@ -217,7 +238,7 @@ footer a {
         display: inline-block;
     }
 }
-
+/* Para corregir problema de tamaño de letras chiquititas en navbar y footer */
 a {
     font-size: 100%;
 }
