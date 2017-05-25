@@ -3,73 +3,85 @@
 
 /*home*/
 
-#panelMobile {
-    display: none;
+#panelMobile{
+  display: none;
+
 }
 
-#panelHomeDesktop {
-    padding-right: 0;
+#panelHomeDesktop{
+  padding-right: 0;
 }
 
-.paddingPanel {
-    padding-top: 2%;
-    padding-bottom: 3%;
-    padding-left: 3%;
+.paddingPanel{
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 3%;
 }
 
-a {
-    text-decoration: none;
-    font-size: .9vw;
+.home{
+  background-image:url(../img/taxi.jpg);
+  background-size:cover;
+  background-position:bottom;
+
+  /*height: 750px;*/
 }
 
-img {
-    width: 80%;
+.tituloPanel{
+
+  font-size: 2vw;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.viaja{
+
+  font-size: 1vw;
+}
+.marginTop{
+  margin-top: 18%;
+}
+.marginTopSpan{
+  margin-top: 5%;
+}
+.borderNone{
+  border: none;
+}
+.lab{
+  width: 15%;
+}
+.tamanoLinea{
+  font-size: .8vw;
+}
+button{
+  color:#000;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+.colorGeneralAmarillo{
+  background: #f7b617;
+}
+.colorBlanco{
+  color:#fff;
 }
 
-.home {
-    background-image: url(../img/taxi.jpg);
-    background-size: cover;
-    background-position: bottom;
-    /*height: 750px;*/
+/*mobile home*/
+@media screen and (min-width:0px) and (max-width:480px){
+  #primerPanel{
+  display: none;
 }
+#panelMobile{
+ display: inline;
+ margin-top: 50%;
+ margin-bottom: 60%;
 
-.tituloPanel {
-    font-size: 2vw;
-    font-weight: 300;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
-
-.viaja {
-    font-size: 1vw;
+#contenidoPanelMobile{
+ padding: 5%;
 }
-
-.marginTop {
-    margin-top: 18%;
+.tituloPanelPequenio{
+ font-size: 30px;
 }
-
-.marginTopSpan {
-    margin-top: 5%;
 }
-
-.borderNone {
-    border: none;
-}
-
-.lab {
-    width: 15%;
-}
-
-.tamanoLinea {
-    font-size: .8vw;
-}
-
-button {
-    color: #000;
-    font-size: 1.2vw;
-    font-weight: 500;
-}
-
 
 /*estilos Pari*/
 
@@ -149,7 +161,7 @@ button {
     .app {
         display: none;
     }
-    
+
 }
 
 /*comienzan estilos Itzel y Gaby*/
@@ -198,7 +210,7 @@ footer div div {
 footer a {
     line-height: 3em;
     color: #fff;
-    
+
 }
 
 #enlaces-1 {
