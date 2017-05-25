@@ -1,106 +1,157 @@
+
 /*estilos adriana*/
+
 /*home*/
-#panelMobile{
-  display: none;
 
-}
-
-#panelHomeDesktop{
-  padding-right: 0;
+#panelMobile {
+    display: none;
 }
 
-.paddingPanel{
-  padding-top: 2%;
-  padding-bottom: 3%;
-  padding-left: 3%;
-}
-a{
-  text-decoration: none;
-  font-size: .9vw;
+#panelHomeDesktop {
+    padding-right: 0;
 }
 
-img{
-  width:80%;
-}
-.home{
-  background-image:url(../img/taxi.jpg);
-  background-size:cover;
-  background-position:bottom;
-
-  /*height: 750px;*/
+.paddingPanel {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 3%;
 }
 
-.tituloPanel{
+a {
+    text-decoration: none;
+    font-size: .9vw;
+}
 
-  font-size: 2vw;
-  font-weight: 300;
-  margin-bottom: 0;
-  padding-bottom: 0;
+img {
+    width: 80%;
 }
-.viaja{
 
-  font-size: 1vw;
+.home {
+    background-image: url(../img/taxi.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /*height: 750px;*/
 }
-.marginTop{
-  margin-top: 18%;
+
+.tituloPanel {
+    font-size: 2vw;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
-.marginTopSpan{
-  margin-top: 5%;
+
+.viaja {
+    font-size: 1vw;
 }
-.borderNone{
-  border: none;
+
+.marginTop {
+    margin-top: 18%;
 }
-.lab{
-  width: 15%;
+
+.marginTopSpan {
+    margin-top: 5%;
 }
-.tamanoLinea{
-  font-size: .8vw;
+
+.borderNone {
+    border: none;
 }
-button{
-  color:#000;
-  font-size: 1.2vw;
-  font-weight: 500;
+
+.lab {
+    width: 15%;
+}
+
+.tamanoLinea {
+    font-size: .8vw;
+}
+
+button {
+    color: #000;
+    font-size: 1.2vw;
+    font-weight: 500;
 }
 
 
 /*estilos Pari*/
 
-.fondo2{
-  background-image: url(../img/conduce.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 500px;
+.fondo2 {
+    background-image: url(../img/conduce.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
 }
 
-#secondCard{
-  margin-top: 8%;
-  background-color: #142045;
-  opacity: 0.6;
-  color: white;
+#secondCard {
+    margin-top: 8%;
+    background-color: #142045;
+    opacity: 0.6;
+    color: white;
 }
+
+
 /*estilos Pari*/
+
 
 /*estilos Andy*/
+
 .navbar {
-  padding: 2%;
-  background-color: #fff;
+    padding: 2%;
+    background-color: #fff;
 }
 
+
 /*modales*/
+
 #iniciarSesion .modal-content {
-  background-color: rgb(8, 172, 157);
-  height: 480px;
+    background-color: rgb(8, 172, 157);
+    height: 480px;
 }
 
 #iniciarSesion a:hover {
-  color: #2b1d31;
+    color: #2b1d31;
 }
 
 .m-20 {
-  margin: 20px 30%;
+    margin: 20px 30%;
 }
+
+
 /*estilos Andy*/
+
+/*Leslie*/
+
+.contenedorApp {
+    width: 100%;
+    background-color: #FFB704;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media (min-width:769px) {
+    .appmobile {
+        display: none;
+    }
+}
+
+.app {
+    margin-left: 50px;
+    width: 400px;
+    padding: 5%;
+    color: white;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    .appmobile {
+        width: 100%;
+    }
+    .app {
+        display: none;
+    }
+    
+}
+
 /*comienzan estilos Itzel y Gaby*/
 .form-control{
   width: 80%;
@@ -123,33 +174,71 @@ input{
   padding: 50px;
 }
 /*terminan estilos Itzel y Gaby*/
-/*Leslie*/
-.contenedorApp{
-  width: 100%;
-  background-color: #FFB704;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-@media (min-width:769px){
-.appmobile{
-  display:none;
-}
+
+/* DIANA */
+
+footer {
+    padding: 2vw 5vw 0;
+    background-color: #2a2a2a;
+    color: #fff;
 }
 
-.app{
-  margin-left: 50px;
-  width: 400px;
-  padding: 5%;
-  color: white;
+#logo-footer {
+    width: auto;
 }
-@media (min-width:0px) and (max-width:768px){
- .appmobile{
- width: 100%;
 
- }
- .app{
-   display: none;
- }
- }
+.separador {
+    border-bottom: .12em solid rgba(255, 255, 255, 0.65);
+}
+
+footer div div {
+    padding: 2vw 0;
+}
+
+footer a {
+    line-height: 3em;
+    color: #fff;
+    
+}
+
+#enlaces-1 {
+    padding-top: 24vw;
+}
+
+#enlaces-1 a,
+#enlaces-oculto a {
+    margin-left: 1em;
+}
+
+#frase-oculta,
+#enlaces-oculto {
+    display: none;
+}
+
+#enlaces-4 {
+    padding-top: 14.5vw;
+}
+
+#enlaces-4 img {
+    margin-top: 1em;
+}
+
+
+@media (min-width:0px) and (max-width:768px) {
+    #enlaces-1,
+    #enlaces-3 {
+        display: none;
+    }
+    #enlaces-1,
+    #enlaces-4 {
+        padding: 0;
+    }
+    #frase-oculta,
+    #enlaces-oculto {
+        display: inline-block;
+    }
+}
+/* Para corregir problema de tamaño de letras chiquititas en navbar y footer */
+a {
+    font-size: 100%;
+}
